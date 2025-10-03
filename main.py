@@ -231,7 +231,7 @@ if st.session_state.messages:
                     # Use Groq TTS (if available) or skip
                     speech_file_path = "speech.wav" 
                     model = "playai-tts"
-                    voice = "Fritz-PlayAI"
+                    voice = "Chip-PlayAI"
                     text = response
                     response_format = "wav"
 
