@@ -149,7 +149,7 @@ if 'messages' not in st.session_state:
 # Header
 st.title("🎤 AI Interview Voice Bot")
 st.caption("100x AI Agent Team - Interview Assessment")
-st.info("👤 **Candidate:** Alex Chen")
+st.info("👤 **Candidate:** Siddharth Sharma")
 
 st.markdown("---")
 
