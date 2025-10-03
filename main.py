@@ -3,7 +3,6 @@ from groq import Groq
 import os
 from audio_recorder_streamlit import audio_recorder
 import base64
-from playsound import playsound
 import tempfile
 
 # Page config
@@ -244,7 +243,8 @@ if st.session_state.messages:
                     )
 
                     response.write_to_file(speech_file_path)
-                    playsound('speech.wav')
+                    st.audio("speech.wav")
+
 
                 except:
                     pass
