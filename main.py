@@ -23,7 +23,7 @@ def get_groq_client():
 
 client = get_groq_client()
 
-# Your personality data - CUSTOMIZE THIS!
+# Your personality data
 PERSONALITY = """
 You are Siddharth Sharma, a Machine Learning Developer being interviewed for the 100x AI Agent Team position.
 
@@ -33,18 +33,18 @@ https://www.linkedin.com/in/siddharth-sharma--applied-ai-engineer
 +919983358689
 Gurugram, Haryana, India
 
-I’m a Machine Learning Engineer with a focus on building practical, real-world applications using Large Language 
-Models (LLMs), AI agents, and NLP systems. My work spans the full lifecycle - from data preparation and ﬁne-tuning 
+I'm a Machine Learning Engineer with a focus on building practical, real-world applications using Large Language 
+Models (LLMs), AI agents, and NLP systems. My work spans the full lifecycle - from data preparation and fine-tuning 
 LLMs to backend development, deployment, and scaling in the cloud.
-I’ve designed agentic applications that improved information retrieval, automated sourcing, and optimized diagnostics 
-in robotics. I ﬁne-tuned LLMs with techniques like LoRA, QLoRA, and SFT, creating models capable of generating 
+I've designed agentic applications that improved information retrieval, automated sourcing, and optimized diagnostics 
+in robotics. I fine-tuned LLMs with techniques like LoRA, QLoRA, and SFT, creating models capable of generating 
 diverse stories and poetry.
-Beyond AI application development, I also bring strong backend and deployment expertise. I’ve built APIs using 
+Beyond AI application development, I also bring strong backend and deployment expertise. I've built APIs using 
 FastAPI, integrated them with MongoDB, and deployed applications with Nginx on Azure cloud infrastructure, ensuring 
 reliability and scalability.
 
-Here’s what I specialize in:
-AI/ML: LLM ﬁne-tuning, agentic systems, NLP
+Here's what I specialize in:
+AI/ML: LLM fine-tuning, agentic systems, NLP
 Frameworks & Tools: Transformers, LangGraph, AutoGen, SmolAgents
 Backend & Deployment: FastAPI, MongoDB, Nginx, Azure
 Programming: Python, SQL, Java, NoSQL
@@ -53,29 +53,28 @@ I'm passionate about creating scalable AI-powered systems that bridge cutting-ed
 Always open to collaborations and opportunities where I can apply my skills to solve complex problems and build 
 intelligent solutions.
 
-
 Work Experience
 Applied AI Engineer
-Brightbots Privated Limited | Gurugram, Haryana, India - Nov 2024 Present- 
+Brightbots Private Limited | Gurugram, Haryana, India - Nov 2024 Present
 At BrightBots, I worked on designing and deploying AI-driven systems and agentic applications that improved 
-eﬃciency across robotics and automation. My role involved the end-to-end lifecycle - building intelligent agents, 
+efficiency across robotics and automation. My role involved the end-to-end lifecycle - building intelligent agents, 
 integrating them with backend systems, and deploying scalable solutions in the cloud.
 Developed an agentic RAG system using SmolAgents to streamline product documentation lookup, reducing manual 
-eﬀort for internal teams.
+effort for internal teams.
 Built an AI diagnostic agent with AutoGen that processed real-time robotic cleaner data, enabling faster issue detection 
 and improving system uptime.
 Automated the BOM sourcing process by creating an LLM-powered assistant integrated with custom Python tools, 
-signiﬁcantly reducing manual sourcing time.
+significantly reducing manual sourcing time.
 Designed the backend with FastAPI, connected with MongoDB, and deployed applications using Nginx on Azure, 
 ensuring robustness and scalability.
 
 Generative AI Engineer
-Karma Points | Delhi, India - May 2024 Oct 2024- 
-At The Karma Points, I focused on ﬁne-tuning Large Language Models (LLMs) and building the foundation for creative 
+Karma Points | Delhi, India - May 2024 Oct 2024
+At The Karma Points, I focused on fine-tuning Large Language Models (LLMs) and building the foundation for creative 
 AI applications. My work involved dataset creation, model training, and optimization techniques to enhance generation 
-quality and eﬃciency.
+quality and efficiency.
 Built a high-quality training dataset from scratch by collecting, cleaning, and preparing diverse text sources, ensuring 
-readiness for supervised ﬁne-tuning.
+readiness for supervised fine-tuning.
 Fine-tuned LLMs using techniques such as LoRA, QLoRA, and 4-bit training, improving model performance for story 
 and poetry generation tasks.
 Developed pipelines with the Transformers framework to train and evaluate models, ensuring scalability and 
@@ -83,8 +82,7 @@ reproducibility.
 Collaborated with the team to experiment with creative AI applications, aligning model outputs with project goals.
 
 Projects:
-
-Multi-AI-Agent System for Real-Time Data Analysis and Automation- Feb 2025 Present
+Multi-AI-Agent System for Real-Time Data Analysis and Automation - Feb 2025 Present
 Designed and deployed a multi-agent system to perform data analysis on live product data and company databases, 
 enabling faster insights and automation. The system integrated external APIs, company databases, and streaming data 
 pipelines to support decision-making across teams.
@@ -93,34 +91,31 @@ Developed the backend in FastAPI, connected with MongoDB, and deployed on Azure 
 Set up a CI/CD pipeline to streamline updates and ensure reliable deployments
 Integrated external APIs with company databases, enabling agents to process both historical records and real-time 
 product data
-Delivered a scalable solution that reduced manual analysis eﬀort and improved system responsiveness
-
+Delivered a scalable solution that reduced manual analysis effort and improved system responsiveness
 
 Fine-Tuned LLM for Creative Story and Poetry Generation - Feb 2024 Oct 2024
-Developed a custom ﬁne-tuned LLM designed to generate creative, long-form stories and poems. I built a high-quality 
+Developed a custom fine-tuned LLM designed to generate creative, long-form stories and poems. I built a high-quality 
 dataset by scraping and cleaning open-source creative writing content, ensuring data diversity and relevance for 
 training.
 Fine-tuned a Mistral-based model using Dolphin-2.9.3 (7B) with LoRA techniques
-Trained on a single NVIDIA A100 GPU over 25 hours, optimizing for eﬃciency and quality
+Trained on a single NVIDIA A100 GPU over 25 hours, optimizing for efficiency and quality
 Improved model capability to produce imaginative, coherent, and stylistically rich narratives
-Managed the end-to-end pipeline: dataset preparation, model ﬁne-tuning, and evaluation
+Managed the end-to-end pipeline: dataset preparation, model fine-tuning, and evaluation
 
 Core Skills:
 Project Management, Web Hosting, Azure AI Foundry, Microsoft Azure Machine Learning, Microsoft Azure, Nginx,
 Beautiful Soup, Data Scraping, Selenium, Model Training, AI Agents, Retrieval-Augmented Generation (RAG),
-Large Language Models (LLM), Fine Tuning, Python (Programming Language), Artiﬁcial Intelligence (AI),
+Large Language Models (LLM), Fine Tuning, Python (Programming Language), Artificial Intelligence (AI),
 Machine Learning, Multi-agent Systems, FastAPI, Flask
 
 Education:
 The NorthCap University - Bachelor of Technology - BTech Computer Science - Jan 2020 Jan 2024
-Relevant Coursework: Specialized in Artiﬁcial Intelligence and Machine Learnin
+Relevant Coursework: Specialized in Artificial Intelligence and Machine Learning
 
-Certiﬁcates:
+Certificates:
 -AWS Academy Graduate - AWS Academy Machine Learning Foundations Amazon Web Services (AWS)
--Introduction to TensorFlow for Artiﬁcial Intelligence, Machine Learning, and Deep Learning Coursera
+-Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning Coursera
 -AWS Academy Graduate - AWS Academy Cloud Foundations Amazon Web Services (AWS)
-
-
 
 Here's your background:
 I'm a machine learning engineer, and honestly, my journey into tech started with childhood 
@@ -137,7 +132,7 @@ interactions (I'm working on being better at connecting with people), frontend
  I've learned that the best way for me is to just start working on the problem or task instead 
  of overthinking and planning forever - action beats analysis paralysis for me.
 
-Answer interview questions naturally and authentically as. Be conversational, genuine, and keep responses 
+Answer interview questions naturally and authentically. Be conversational, genuine, and keep responses 
 concise (2-4 sentences unless asked for more detail). Don't try to impress - just be honest and human. 
 Answer based on the background provided in your resume and the background details provided.
 """
@@ -145,11 +140,15 @@ Answer based on the background provided in your resume and the background detail
 # Initialize session state
 if 'messages' not in st.session_state:
     st.session_state.messages = []
+if 'current_question' not in st.session_state:
+    st.session_state.current_question = ""
+if 'process_input' not in st.session_state:
+    st.session_state.process_input = False
 
 # Header
 st.title("🎤 AI Interview Voice Bot")
 st.caption("100x AI Agent Team - Interview Assessment")
-st.info("👤 **Candidate:** Siddharth Sharma")
+st.info("👤 **Candidate:** Siddharth Sharma | ML Engineer")
 
 st.markdown("---")
 
@@ -182,7 +181,8 @@ if audio_bytes:
                     model="whisper-large-v3",
                     response_format="text"
                 )
-            user_input = transcription
+            st.session_state.current_question = transcription
+            st.session_state.process_input = True
             st.success(f"🎤 You said: {transcription}")
         except Exception as e:
             st.error(f"Error transcribing audio: {e}")
@@ -190,67 +190,103 @@ if audio_bytes:
             os.unlink(temp_audio_path)
 
 # Submit button
-if st.button("Send", type="primary", use_container_width=True) or user_input:
+if st.button("Send", type="primary", use_container_width=True):
     if user_input and user_input.strip():
-        # Add user message
-        st.session_state.messages.append({"role": "user", "content": user_input})
-        
-        # Get AI response
-        with st.spinner("💭 Thinking..."):
-            try:
-                chat_completion = client.chat.completions.create(
-                    messages=[
-                        {"role": "system", "content": PERSONALITY},
-                        *st.session_state.messages
-                    ],
-                    model="llama-3.1-8b-instant",
-                    temperature=0.7,
-                    max_tokens=500
-                )
-                
-                response = chat_completion.choices[0].message.content
-                st.session_state.messages.append({"role": "assistant", "content": response})
-                
-            except Exception as e:
-                st.error(f"Error getting response: {e}")
+        st.session_state.current_question = user_input
+        st.session_state.process_input = True
+
+# Process the input (from either text or voice)
+if st.session_state.process_input and st.session_state.current_question:
+    question = st.session_state.current_question
+    
+    # Add user message
+    st.session_state.messages.append({"role": "user", "content": question})
+    
+    # Get AI response
+    with st.spinner("💭 Thinking..."):
+        try:
+            chat_completion = client.chat.completions.create(
+                messages=[
+                    {"role": "system", "content": PERSONALITY},
+                    *st.session_state.messages
+                ],
+                model="llama-3.1-8b-instant",
+                temperature=0.7,
+                max_tokens=500
+            )
+            
+            response_text = chat_completion.choices[0].message.content
+            st.session_state.messages.append({"role": "assistant", "content": response_text})
+            
+            # Generate voice response
+            with st.spinner("🔊 Generating voice response..."):
+                try:
+                    speech_file_path = "speech.wav"
+                    model = "playai-tts"
+                    voice = "Fritz-PlayAI"
+                    response_format = "wav"
+
+                    speech_response = client.audio.speech.create(
+                        model=model,
+                        voice=voice,
+                        input=response_text,
+                        response_format=response_format
+                    )
+
+                    speech_response.write_to_file(speech_file_path)
+                    
+                    # Play the audio
+                    st.audio(speech_file_path)
+                    
+                except Exception as e:
+                    st.warning(f"Voice playback not available: {e}")
+            
+        except Exception as e:
+            st.error(f"Error getting response: {e}")
+    
+    # Reset the flags
+    st.session_state.process_input = False
+    st.session_state.current_question = ""
+    st.rerun()
 
 st.markdown("---")
 
 # Display conversation
 if st.session_state.messages:
     st.subheader("💬 Conversation")
-    for msg in st.session_state.messages:
+    
+    # Display latest response at the top with voice
+    if len(st.session_state.messages) >= 2:
+        latest_response = st.session_state.messages[-1]
+        if latest_response["role"] == "assistant":
+            st.markdown("### 🔊 Latest Response:")
+            st.markdown(f"**🤖 Siddharth:** {latest_response['content']}")
+            
+            # Add a play button for the latest response
+            if st.button("🔊 Play Voice Response", key="play_latest"):
+                try:
+                    if os.path.exists("speech.wav"):
+                        st.audio("speech.wav")
+                except Exception as e:
+                    st.error(f"Could not play audio: {e}")
+            
+            st.markdown("---")
+    
+    # Display full conversation history
+    st.markdown("### 📜 Full Conversation History:")
+    for idx, msg in enumerate(st.session_state.messages):
         if msg["role"] == "user":
             st.markdown(f"**🙋 You:** {msg['content']}")
         else:
-            st.markdown(f"**🤖 Sid:** {msg['content']}")
-            
-            # Text to speech
-            with st.spinner("🔊 Generating speech..."):
-                try:
-                    # Use Groq TTS (if available) or skip
-                    speech_file_path = "speech.wav" 
-                    model = "playai-tts"
-                    voice = "Chip-PlayAI"
-                    text = response
-                    response_format = "wav"
-
-                    response = client.audio.speech.create(
-                        model=model,
-                        voice=voice,
-                        input=text,
-                        response_format=response_format
-                    )
-
-                    response.write_to_file(speech_file_path)
-                    st.audio("speech.wav")
-
-
-                except:
-                    pass
+            st.markdown(f"**🤖 Siddharth:** {msg['content']}")
+        st.markdown("")
     
     if st.button("Clear Conversation", use_container_width=True):
         st.session_state.messages = []
+        st.session_state.current_question = ""
+        st.session_state.process_input = False
+        if os.path.exists("speech.wav"):
+            os.remove("speech.wav")
         st.rerun()
 
 # Sample questions
@@ -270,7 +306,8 @@ cols = st.columns(2)
 for idx, q in enumerate(questions):
     with cols[idx % 2]:
         if st.button(q, key=f"q_{idx}", use_container_width=True):
-            st.session_state.messages.append({"role": "user", "content": q})
+            st.session_state.current_question = q
+            st.session_state.process_input = True
             st.rerun()
 
 # Footer
