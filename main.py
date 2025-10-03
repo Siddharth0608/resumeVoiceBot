@@ -223,7 +223,7 @@ if st.session_state.messages:
         if msg["role"] == "user":
             st.markdown(f"**🙋 You:** {msg['content']}")
         else:
-            st.markdown(f"**🤖 Alex:** {msg['content']}")
+            st.markdown(f"**🤖 Sid:** {msg['content']}")
             
             # Text to speech
             with st.spinner("🔊 Generating speech..."):
