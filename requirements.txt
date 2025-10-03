@@ -1,3 +1,4 @@
+pip>=25.2
 groq
 audio_recorder_streamlit
 playsound
